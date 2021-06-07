@@ -1,0 +1,29 @@
+{
+  "name": "carsapp",
+  "version": "1.0.0",
+  "description": "The sample app to sho cars details",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srinivasan786/test.git"
+  },
+  "author": "Srinivasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Srinivasan786/test/issues"
+  },
+  "homepage": "https://github.com/Srinivasan786/test#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.10.0"
+  }
+}
